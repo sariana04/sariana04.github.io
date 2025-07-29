@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body{
    font-family: arial, sans-serif;
-   background-color: rgb(219, 195, 212);
+   background-color: rgb(169, 180, 214);
 }
 
 .navbar {
@@ -22,12 +22,12 @@ body{
 
 .konten {
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 .setting {
     background-color: transparent;
-    border: 2px solid #ffffff;
+    border: 2px solid #f8f4f4;
     padding: 3px;
     border-radius: 5px;
     cursor: pointer;
@@ -35,7 +35,7 @@ body{
 
 #cari {
     background-color: #ffffff;
-    border: 2px solid rgb(182, 182, 182);
+    border: 2px solid rgb(236, 231, 231);
     border-right: none;
     outline: none;
     padding: 10px;
@@ -45,7 +45,7 @@ body{
 
 .search>button {
     background-color: #ffffff;
-    border: 2px solid rgb(182, 182, 182);
+    border: 2px solid rgb(238, 235, 235);
     padding: 10px;
     border-radius: 0 5px 5px 0;
     border-left: none;
