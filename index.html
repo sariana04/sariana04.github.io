@@ -1,31 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arsip PDAM</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan Digital</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<style>
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: arial, sans-serif;
+   background-color: rgb(221, 197, 210);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.left {
+    display: flex;
+    gap: 20px;
+}
+
+.konten {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.setting {
+    background-color: transparent;
+    border: 2px solid #f8f4f4;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cari {
+    background-color: #ffffff;
+    border: 2px solid rgb(236, 231, 231);
+    border-right: none;
+    outline: none;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+}
+
+.search>button {
+    background-color: #ffffff;
+    border: 2px solid rgb(238, 235, 235);
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    outline: none;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+</style>
 <body>
-        <div class="navbar">
-            <div class="left">
-            <span class="nav-item">🏠HOME</span>
-            <span class="nav-item">⬆️UPLOAD</span>
-            <span class="nav-item">🗃️KATEGORI</span>
 
-            </div>
-            <div class="right">
-            <button class="setting">⚙️setting</button>
-            </div>
-        </div>
-        <div class="konten">
-            <h1>ARSIP PDAM BALANGAN</h1>
-            <div class="search">
-                <input type="text" id="cari" placeholder="cari dokumen">
-                <button>🔍</button>
+  <div class="navbar">
+    <div class="left">
+      <span class="nav-item">🏠 Beranda</span>
+      <span class="nav-item">📚 Koleksi</span>
+      <span class="nav-item">📝 Peminjaman</span>
+    </div>
+    <div class="right">
+      <button class="setting">⚙️ setting</button>
+    </div>
+  </div>
 
-            </div>
+  <div class="konten">
+    <h1>Selamat Datang di Perpustakaan Digital</h1>
 
-        </div>
+    <div class="search">
+      <input type="text" id="cari" placeholder="Cari judul atau penulis...">
+      <button>🔍 Cari</button>
+    </div>
+
 </body>
 </html>
